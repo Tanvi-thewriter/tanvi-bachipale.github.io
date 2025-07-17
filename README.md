@@ -42,6 +42,12 @@
       padding: 3rem 1rem;
       text-align: center;
     }
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
     .hero p {
       font-size: 1.25rem;
       max-width: 800px;
@@ -89,6 +95,13 @@
       margin-top: 0;
       color: #1e3a8a;
     }
+    .story img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
@@ -96,12 +109,13 @@
     <h1>Tanvi Bachipale</h1>
     <nav>
       <a href="#about">About</a>
-      <a href="#blogs">Blogs</a>
+      <a href="#blogs">Writings</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section class="hero">
+    <img src="A_digital_illustration_in_a_semi-realistic_style_w.png" alt="Author Illustration">
     <p>Welcome to my world of stories, rebellion, and emotion. I’m Tanvi Bachipale — a writer weaving dreams and discontent into tales that question, amuse, and rebel.</p>
   </section>
 
@@ -118,14 +132,17 @@
   <section class="section" id="blogs">
     <h2>My Writings</h2>
     <div class="story">
+      <img src="https://placehold.co/800x250?text=The+Tunnel+4" alt="Tunnel Story">
       <h3>The Tunnel 4</h3>
       <p>A deeply emotional tale of sacrifice, memory, and resilience inside a haunting coal mine.</p>
     </div>
     <div class="story">
+      <img src="https://placehold.co/800x250?text=Poem+on+Theft" alt="Poem Illustration">
       <h3>I Stole for a Very Good Reason</h3>
       <p>A witty and poetic reflection on a thief’s peculiar habit — stealing only to feed a love for books.</p>
     </div>
     <div class="story">
+      <img src="https://placehold.co/800x250?text=The+Dream" alt="Dream Story">
       <h3>The Dream</h3>
       <p>A surreal psychological journey blending memory, identity, and legacy — where dreams blur into reality.</p>
     </div>
@@ -144,6 +161,4 @@
 </body>
 </html>
 
-      
-    
-     
+   
