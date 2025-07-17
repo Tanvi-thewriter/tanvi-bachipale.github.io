@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -9,38 +8,38 @@
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #1a1a1a;
-      color: #f4f4f4;
+      background-color: #f8f9fa;
+      color: #333;
     }
     header {
-      background-color: #2d2d2d;
+      background-color: #dbeafe;
       padding: 2rem;
       text-align: center;
-      border-bottom: 2px solid #444;
+      border-bottom: 2px solid #cbd5e1;
     }
     header h1 {
       font-family: 'Playfair Display', serif;
       font-size: 3rem;
       margin: 0;
-      color: #f2c14e;
+      color: #3b82f6;
     }
     nav {
       text-align: center;
       margin: 1rem 0;
     }
     nav a {
-      color: #f4f4f4;
+      color: #3b82f6;
       text-decoration: none;
       margin: 0 1rem;
       font-weight: 500;
       transition: color 0.3s;
     }
     nav a:hover {
-      color: #f2c14e;
+      color: #1e40af;
     }
     .hero {
-      background: linear-gradient(to right, #3a3a3a, #1a1a1a);
-      padding: 3rem;
+      background: linear-gradient(to right, #f0f9ff, #dbeafe);
+      padding: 3rem 1rem;
       text-align: center;
     }
     .hero p {
@@ -49,34 +48,46 @@
       margin: 0 auto;
     }
     .section {
-      padding: 3rem;
+      padding: 3rem 1rem;
       max-width: 900px;
       margin: 0 auto;
     }
     .section h2 {
-      color: #f2c14e;
+      color: #3b82f6;
       font-family: 'Playfair Display', serif;
     }
     footer {
-      background-color: #2d2d2d;
-      color: #aaa;
+      background-color: #dbeafe;
+      color: #555;
       text-align: center;
-      padding: 2rem;
+      padding: 2rem 1rem;
       font-size: 0.9rem;
     }
     .btn {
       display: inline-block;
       margin-top: 1rem;
       padding: 0.6rem 1.2rem;
-      background-color: #f2c14e;
-      color: #1a1a1a;
+      background-color: #3b82f6;
+      color: #fff;
       border-radius: 5px;
       font-weight: bold;
       text-decoration: none;
       transition: background 0.3s;
     }
     .btn:hover {
-      background-color: #ddb945;
+      background-color: #2563eb;
+    }
+    .story {
+      background-color: #ffffff;
+      border-left: 5px solid #3b82f6;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    .story h3 {
+      margin-top: 0;
+      color: #1e3a8a;
     }
   </style>
 </head>
@@ -105,9 +116,20 @@
   </section>
 
   <section class="section" id="blogs">
-    <h2>Blogs</h2>
-    <p>Coming soon! A personal space where I share insights, short pieces, book updates, and behind-the-scenes of my writing journey.</p>
-    <a class="btn" href="#">Visit Blog</a>
+    <h2>My Writings</h2>
+    <div class="story">
+      <h3>The Tunnel 4</h3>
+      <p>A deeply emotional tale of sacrifice, memory, and resilience inside a haunting coal mine.</p>
+    </div>
+    <div class="story">
+      <h3>I Stole for a Very Good Reason</h3>
+      <p>A witty and poetic reflection on a thief’s peculiar habit — stealing only to feed a love for books.</p>
+    </div>
+    <div class="story">
+      <h3>The Dream</h3>
+      <p>A surreal psychological journey blending memory, identity, and legacy — where dreams blur into reality.</p>
+    </div>
+    <a class="btn" href="#">Read More</a>
   </section>
 
   <section class="section" id="contact">
@@ -122,5 +144,6 @@
 </body>
 </html>
 
-
-   
+      
+    
+     
